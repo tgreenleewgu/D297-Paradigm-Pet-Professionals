@@ -1,0 +1,117 @@
+.header{
+    background-color: #003B6D;
+    color: #BDBDBD;
+    margin: 0; 
+    padding: 0 20px; /* Add some padding to create space inside the header */
+    text-align: center;
+    font-family: Copperplate, "Copperplate Gothic Light";
+    font-weight: 800;
+}
+
+.disabled-link {
+    pointer-events: none; 
+    color: #7488a7 !important; 
+    
+  }
+
+ 
+
+.footer{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+}
+
+.body{
+    background-color: #003B6D;
+    color: #BDBDBD;
+    padding: 20px;
+    margin: 0;
+}
+    
+
+body img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+
+.body {
+    min-height: 100vh;
+}
+
+
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+  
+
+.appointment-form {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #003B6D;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .appointment-form h2 {
+    text-align: center;
+    color:#BDBDBD;
+  }
+  
+  .appointment-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .appointment-form label {
+    font-weight: bold;
+    color: #BDBDBD;
+    ;
+  }
+  
+  .appointment-form input[ type="text"],
+  .appointment-form input[type="email"],
+  .appointment-form input[type="tel"],
+  .appointment-form input[type="date"],
+  .appointment-form select,
+  .appointment-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .appointment-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #929fba;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .appointment-form input[type="submit"]:hover {
+    background-color: #7488a7;
+  }
+  
+.link-card{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+  
+ 
+  
+  
